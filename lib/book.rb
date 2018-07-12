@@ -34,7 +34,7 @@ class Book
   end
   
   def turn_page
-  
+    puts "Flippi"
 end
 end
 
