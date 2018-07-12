@@ -44,5 +44,5 @@ fav = Book.new("Catching Fire")
 fav.author= ("Suzanne Collins")
 fav.page_count= (500000)
 fav.genre= ("crazy")
-puts fav
+puts fav.title
 fav.turn_page
