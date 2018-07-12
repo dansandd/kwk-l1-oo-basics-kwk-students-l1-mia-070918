@@ -5,7 +5,7 @@ class Book
     @title = title
   end
   
-  def title
+  def title 
     @title
   end
   
@@ -17,5 +17,15 @@ class Book
     @author
   end
   
+  def page_count=(num)
+    @page_count = num
+  end
+  
+  def page_count
+    @page_count
+  end
   
 end
+
+fav = Book.new("Catching Fire")
+fav.author= 
