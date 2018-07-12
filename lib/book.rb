@@ -32,6 +32,10 @@ class Book
   def genre
     @genre
   end
+  
+  def turn_page
+  
+end
 end
 
 fav = Book.new("Catching Fire")
