@@ -28,4 +28,5 @@ class Book
 end
 
 fav = Book.new("Catching Fire")
-fav.author= 
+fav.author= ("Suzanne Collins")
+puts fav.author
