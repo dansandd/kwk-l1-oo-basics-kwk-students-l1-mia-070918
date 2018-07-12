@@ -25,8 +25,17 @@ class Book
     @page_count
   end
   
+  def genre=(genre)
+    @genre = genre
+  end
+  
+  def genre
+    @genre
+  end
 end
 
 fav = Book.new("Catching Fire")
 fav.author= ("Suzanne Collins")
+fav.page_count= (500000)
+fav.genre= ("crazy")
 puts fav.author
