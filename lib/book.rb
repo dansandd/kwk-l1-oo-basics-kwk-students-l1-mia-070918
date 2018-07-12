@@ -34,8 +34,10 @@ class Book
   end
   
   def turn_page
-    puts "Flippi"
-end
+    puts "Flipping the page...wow, you read fast!"
+  end
+  
+  
 end
 
 fav = Book.new("Catching Fire")
@@ -43,3 +45,4 @@ fav.author= ("Suzanne Collins")
 fav.page_count= (500000)
 fav.genre= ("crazy")
 puts fav
+fav.turn_page
